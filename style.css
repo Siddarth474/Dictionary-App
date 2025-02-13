@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #c5cacf;
+}
+.header-dict{
+    width:100%;
+    height: min-content;
+    padding:15px;
+    color:white;
+    background-color: #650081;
+    text-transform: capitalize;
+}
+main{
+    height:85vh;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.search-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.search-box input[type="text"]{
+    flex-grow: 1;
+    font-size: 1rem;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+.search-box span{
+    position: absolute;
+    right:50px;
+    font-size: 20px;
+    background-color: white;
+    cursor: pointer;
+}
+.search-box button{
+    font-size: 20px;
+    padding: 5px;
+    background-color: #650081;
+    color:white;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.meaning-box{
+    padding:20px;
+    background-color: white;
+    margin-top: 30px;
+    border: 5px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px black;
+}
+.meaning-box p{
+    margin-top:8px;
+}
+.meaning-box p[class="partOfSpeech"] {
+    font-style: italic;
+    color:grey;
+}
+.meaning-box li{
+    font-weight: 300;
+    margin-left: 30px;
+}
+.meaning-box p a{
+    color:#000000;
+    margin-left:10px;
+    cursor: pointer;
+}
+.meaning-box button{
+    font-size: 1rem;
+    background-color: #650081;
+    padding: 5px 9px;
+    margin-top: 10px ;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.meaning-box button a{
+    color:#ffffff;
+    text-decoration: none;
+}
+
+footer p{
+    width: 100%;
+    padding:15px;
+    height: min-content;
+    font-size: 1rem;
+    text-align: center;
+    background-color: #650081;
+    color:white;
+    text-transform: capitalize;
+    position: fixed;
+}
+
